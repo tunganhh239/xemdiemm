@@ -30,7 +30,9 @@ Route::post('import', 'xemdiemController@import')->name('import');
 
 Route::resource('monhoc', 'MonHocController');
 
+//xem điểm cá nhân
 Route::get('view/{id}','viewController@index')->name('view');
+
 Route::fallback(function(){
     return view('errorAa');
 });
