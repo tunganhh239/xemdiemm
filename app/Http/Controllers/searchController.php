@@ -28,7 +28,8 @@ class searchController extends Controller
       {
        $data = DB::table('sinhviens')
          ->where('ten', 'like', '%'.$query.'%')
-         ->orWhere('msv','like','%'.$query.'%')->limit(10)
+         ->orWhere('msv','like','%'.$query.'%')
+         ->orWhere('ho','like','%'.$query.'%')->limit(10)
          ->get();
 
 

@@ -29,18 +29,18 @@
         <table class="table table-bordered table-striped">
             <thead>
                 <tr>
-                 <th>ma sinh vien</th>
-                 <th>Ho sinh vien</th>
-                 <th>ten sinh vien</th>
-                 <th>ma mon hoc</th>
-                 <th>ten mon hoc</th>
-                 <th>Diem chuyen can</th>
-                 <th>diem kiem tra</th>
-                 <th>diem btl</th>
-                 <th>diem thi</th>
-                 <th>diem tk</th>
-                 <th>Xếp loại</th>
-                 <th>Ghi chú</th>
+                    <th>ma sinh vien</th>
+                    <th>Ho sinh vien</th>
+                    <th>ten sinh vien</th>
+                    <th>ma mon hoc</th>
+                    <th>ten mon hoc</th>
+                    <th>Diem chuyen can</th>
+                    <th>diem kiem tra</th>
+                    <th>diem btl</th>
+                    <th>diem thi</th>
+                    <th>diem tk</th>
+                    <th>Xếp loại</th>
+                    <th>Ghi chú</th>
                 </tr>
                </thead>
                <tbody>
