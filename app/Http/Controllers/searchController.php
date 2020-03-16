@@ -56,7 +56,7 @@ class searchController extends Controller
       else
       {
         $output .='
-            <div class="item">no data found</div>
+            <div class="item">Khong tim thay sinh vien</div>
         ';
 
       }
