@@ -39,7 +39,7 @@ class searchController extends Controller
 
       }
       $total_row = $data->count();
-
+      $moe= url("/view/");
       if($total_row > 0)
       {
        foreach($data as $row)
@@ -49,7 +49,7 @@ class searchController extends Controller
             //     <a href="http://127.0.0.1:8000/view/'.$row->msv.' "> <li class="list-group-item">'.$row->ten.','.$row->msv.'</li> </a >
             // ';
             $output .='
-                <a href="http://127.0.0.1:8000/view/'.$row->msv.' "> <div class="item">'.$row->ho.' '.$row->ten.','.$row->msv.'</div> </a >
+                <a href="'.$moe.'/'.$row->msv.' "> <div class="item">'.$row->ho.' '.$row->ten.','.$row->msv.'</div> </a >
             ';
        }
       }
